@@ -50,3 +50,11 @@ bash bin/unidbg-fetch-qsign --port=8080  --count=1 --library=txlib\8.9.63 --andr
 ```kotlin
 # http://127.0.0.1:8080/energy?&version=6.0.0.2534&uin=1234567&guid=ABCDABCDABCDABCDABCDABCDABCDABCD&data=810_f
 ```
+
+
+## 备忘
+
+`dtconfig.json`
+
+反编译，com.tencent.mobileqq.dt.model.FEBound 里面的 mConfigEnCode 和 mConfigDeCode。
+
